@@ -1,0 +1,108 @@
+@import url(style.css);
+
+.team {
+  margin: 2rem 0.5rem 2rem 0.5rem;
+  padding-right: 0.5rem;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-top-right-radius: 10px;
+}
+
+figure.car img {
+  height: 84px;
+  width: 286px;
+}
+
+figure.logoTeam img {
+  height: 50px;
+  width: 50px;
+}
+
+.headerTeam {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #949498;
+}
+
+.headerTeam figure img {
+  display: flex;
+}
+
+h2.mercedes {
+  text-decoration: underline 4px #6cd3bf;
+}
+
+.drivers {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.drivers p {
+  border-bottom: 1px solid #949498;
+  border-right: 1px solid #949498;
+  border-bottom-right-radius: 10px;
+  padding-right: 10px;
+}
+
+.car {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Alpine */
+
+h2.alpine {
+  text-decoration: underline 4px #2293d1;
+}
+
+/* Haas */
+
+h2.haas {
+  text-decoration: underline 4px #b6babd;
+}
+
+/* McLaren */
+
+h2.mclaren {
+  text-decoration: underline 4px #f58020;
+}
+
+/* Red Bull */
+
+h2.redbull {
+  text-decoration: underline 4px #3671c6;
+}
+
+/* Aston Martin */
+
+h2.astonmartin {
+  text-decoration: underline 4px #358c75;
+}
+
+/* Alpha Tauri */
+
+h2.alphatauri {
+  text-decoration: underline 4px #5e8faa;
+}
+
+/* Ferrari */
+
+h2.ferrari {
+  text-decoration: underline 4px #f91536;
+}
+
+/* Alfa Romeo */
+
+h2.alfaromeo {
+  text-decoration: underline 4px #c92d4b;
+}
+
+/* Williams */
+
+h2.williams {
+  text-decoration: underline 4px #37bedd;
+}
